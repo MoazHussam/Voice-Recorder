@@ -34,7 +34,7 @@ class RecordsTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 20
+        return 2
     }
 
     
@@ -98,4 +98,8 @@ class RecordsTableViewController: UITableViewController {
     }
     */
 
+}
+
+struct StoryBoard {
+    static let settingsSegue = "Settings Segue"
 }

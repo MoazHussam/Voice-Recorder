@@ -9,16 +9,22 @@
 /* Begin PBXBuildFile section */
 		6F0F97711CE484AC00B01C77 /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F97701CE484AC00B01C77 /* RecordsTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		6F0F97731CE4886800B01C77 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F97721CE4886800B01C77 /* Records.swift */; settings = {ASSET_TAGS = (); }; };
+		6F3141D61CE4CA6100B0C778 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3141D51CE4CA6100B0C778 /* RecorderViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6F3141D81CE4CB9A00B0C778 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3141D71CE4CB9A00B0C778 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		6FEC98351CE404BE00DF880F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC98341CE404BE00DF880F /* AppDelegate.swift */; };
 		6FEC983A1CE404BE00DF880F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC98381CE404BE00DF880F /* Main.storyboard */; };
 		6FEC983C1CE404BE00DF880F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC983B1CE404BE00DF880F /* Assets.xcassets */; };
 		6FEC983F1CE404BE00DF880F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC983D1CE404BE00DF880F /* LaunchScreen.storyboard */; };
 		6FEE754F1CE419F100D05349 /* RecordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE754E1CE419F100D05349 /* RecordsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6FEFC1341CE5213B00D990F5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFC1331CE5213B00D990F5 /* TestViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6FEFC1361CE5429E00D990F5 /* RecorderSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFC1351CE5429E00D990F5 /* RecorderSplitViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F0F97701CE484AC00B01C77 /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableViewCell.swift; sourceTree = "<group>"; };
 		6F0F97721CE4886800B01C77 /* Records.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		6F3141D51CE4CA6100B0C778 /* RecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecorderViewController.swift; path = ../RecorderViewController.swift; sourceTree = "<group>"; };
+		6F3141D71CE4CB9A00B0C778 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 		6FEC98311CE404BE00DF880F /* Voice Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FEC98341CE404BE00DF880F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FEC98391CE404BE00DF880F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		6FEC983E1CE404BE00DF880F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FEC98401CE404BE00DF880F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FEE754E1CE419F100D05349 /* RecordsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableViewController.swift; sourceTree = "<group>"; };
+		6FEFC1331CE5213B00D990F5 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		6FEFC1351CE5429E00D990F5 /* RecorderSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderSplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 		6FEC98331CE404BE00DF880F /* Voice Recorder */ = {
 			isa = PBXGroup;
 			children = (
+				6F3141D71CE4CB9A00B0C778 /* SettingsViewController.swift */,
 				6FEC98341CE404BE00DF880F /* AppDelegate.swift */,
 				6FEC98381CE404BE00DF880F /* Main.storyboard */,
+				6FEFC1351CE5429E00D990F5 /* RecorderSplitViewController.swift */,
+				6FEFC1331CE5213B00D990F5 /* TestViewController.swift */,
+				6F3141D51CE4CA6100B0C778 /* RecorderViewController.swift */,
 				6F0F97721CE4886800B01C77 /* Records.swift */,
 				6F0F97701CE484AC00B01C77 /* RecordsTableViewCell.swift */,
 				6FEE754E1CE419F100D05349 /* RecordsTableViewController.swift */,
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FEFC1341CE5213B00D990F5 /* TestViewController.swift in Sources */,
 				6FEE754F1CE419F100D05349 /* RecordsTableViewController.swift in Sources */,
 				6F0F97711CE484AC00B01C77 /* RecordsTableViewCell.swift in Sources */,
 				6F0F97731CE4886800B01C77 /* Records.swift in Sources */,
+				6F3141D61CE4CA6100B0C778 /* RecorderViewController.swift in Sources */,
 				6FEC98351CE404BE00DF880F /* AppDelegate.swift in Sources */,
+				6F3141D81CE4CB9A00B0C778 /* SettingsViewController.swift in Sources */,
+				6FEFC1361CE5429E00D990F5 /* RecorderSplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
